@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Portfólio | Thiago Pucinelli</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo"><a href="#">Thiago Pucinelli</a></div>
+          <div class="nav__menu__btn" id="menu-btn"><i class="ri-menu-line"></i></div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#skills">Competências</a></li>
+          <li><a href="#projects">Projetos</a></li>
+
+          <li><a href="#experience">Formação</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="section__container header__container" id="home">
+      <img src="assets/Profile.png" alt="Foto de Thiago Pucinelli" />
+      <h1>Thiago Pucinelli</h1>
+      <p>
+        Técnico em Desenvolvimento de Sistemas no <b>IFSUL</b>, apaixonado por tecnologia e
+        criação de soluções digitais. Experiência em <b>Frontend</b> (HTML, CSS, JS, React, TailwindCSS)
+        e <b>Backend</b> (PHP, Node.js, MySQL, Python).
+      </p>
+      <div class="header__btns">
+        <a class="btn" href="#contact">Entrar em Contato</a>
+        <a href="assets/CV.pdf" download>Download do CV</a>
+      </div>
+    </header>
+<br><br><br>
+    <!-- SKILLS -->
+    <section class="section__container skill__container" id="skills">
+      <h2>Competências</h2>
+      <ul class="skill__flex">
+        <li><span><i class="ri-html5-fill"></i></span>HTML5</li>
+        <li><span><i class="ri-css3-fill"></i></span>CSS3</li>
+        <li><span><i class="ri-javascript-fill"></i></span>JavaScript</li>
+        <li><span><i class="ri-reactjs-line"></i></span>React</li>
+        <li><span><i class="ri-tailwind-css-fill"></i></span>Tailwind CSS</li>
+        <li><span><i class="ri-nodejs-line"></i></span>Node.js</li>
+        <li><span><i class="ri-database-2-fill"></i></span>MySQL / SQL</li>
+        <li><span><i class="ri-terminal-box-line"></i></span>Python</li>
+        <li><span><i class="ri-android-fill"></i></span>Kotlin (Android)</li>
+      </ul>
+    </section>
+<br><br><br>
+    <!-- PROJETOS -->
+<section class="section__container project__container" id="projects">
+      <h2>Projetos</h2>
+      <div class="project__grid">
+        <div class="project__card">
+         <img src="https://private-user-images.githubusercontent.com/154468630/477200759-88589ee6-2294-4c62-b5c0-e7062e7c5f65.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY0MDg2NTEsIm5iZiI6MTc1NjQwODM1MSwicGF0aCI6Ii8xNTQ0Njg2MzAvNDc3MjAwNzU5LTg4NTg5ZWU2LTIyOTQtNGM2Mi1iNWMwLWU3MDYyZTdjNWY2NS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgyOFQxOTEyMzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YjVlOGVmNWQ1MzJjZmVkOWFlMzU4ZTg0NTgwN2IwYjM1MjZkNjY5ZjQzZTdjYWYzNmJiMDBiMGM3NzgyYTQyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rBW7Vn7C8rNhyDtaRdUt3FmjQ2R8OyCcJK1GpaI51Cg" alt="Projeto Chave Mestra" style="width:350px;" />
+          <div class="project__card__details">
+            <div>
+              <p>Sistema de controle digital de chaves físicas</p>
+              <h4><a href="https://github.com/TheThiagoPucinelli/Chave-Mestra">Chave Mestra (TCC)</a></h4>
+            </div>
+            <a href="https://github.com/TheThiagoPucinelli/Chave-Mestra"><i class="ri-arrow-right-up-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br><br>
+    <!-- FORMAÇÃO -->
+    <section class="section__container experience__container" id="experience">
+      <h2>Formação Acadêmica</h2>
+      <ul class="experience__list">
+        <li>
+          <div class="experience__header">
+            <h4>IFSUL – Instituto Federal Sul-rio-grandense</h4>
+            <p>fev/2024 – dez/2025</p>
+          </div>
+          <p>
+            Técnico em Desenvolvimento de Sistemas, com foco em Python, Banco de Dados, PHP, JS e Desenvolvimento Web.
+          </p>
+        </li>
+        <li>
+          <div class="experience__header">
+            <h4>Senac RS</h4>
+            <p>mai/2023 – jul/2023</p>
+          </div>
+          <p>Desenvolvedor de Sistemas, com ênfase em programação Back-End (Node.js, Python, JS) e Front-End (HTML5, CSS, Bootstrap).</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTATO / FOOTER -->
+    <footer>
+      <div class="section__container footer__container" id="contact">
+        <h2>Contato</h2>
+        <p>Interessado em saber mais sobre meu trabalho ou iniciar uma parceria? Entre em contato!</p>
+        <div class="mail__to">
+          <a href="mailto:thiagopucinelli@gmail.com"><span><i class="ri-mail-line"></i></span>thiagopucinelli@gmail.com</a>
+        </div>
+        <ul class="footer__socials">
+          <li><a href="https://www.linkedin.com/in/thiagopucinelli/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+          <li><a href="https://github.com/TheThiagoPucinelli" target="_blank"><i class="ri-github-fill"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const navLinks = document.getElementById("nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
